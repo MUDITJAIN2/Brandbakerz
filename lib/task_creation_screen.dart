@@ -21,7 +21,6 @@ class TaskCreationScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 // Save the task to the user's schedule
-                String taskName = taskNameController.text;
                 // Perform logic to save the task
                 Navigator.pop(context);
               },
