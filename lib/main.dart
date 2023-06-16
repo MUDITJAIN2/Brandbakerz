@@ -13,6 +13,7 @@ class TimeTableApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'TimeTable App',
       initialRoute: '/',
       routes: {
